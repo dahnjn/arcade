@@ -67,7 +67,7 @@
     });
   }
 
-  fetch("games.json")
+  fetch("games.json", { cache: "no-store" })
     .then(function (res) {
       if (!res.ok) throw new Error("Failed to load games.json (" + res.status + ")");
       return res.json();
