@@ -154,5 +154,44 @@
     ],
     "featured": false,
     "locked": true
+  },
+  {
+    "id": "foxtown",
+    "name": "Foxtown",
+    "description": "A cunning little city of foxes \u2014 navigate alleys, deals, and dens.",
+    "repo": null,
+    "playUrl": "https://foxtown.astranova.org/",
+    "poster": "posters/foxtown.jpg",
+    "tags": [
+      "strategy",
+      "adventure"
+    ],
+    "featured": false
+  },
+  {
+    "id": "arctic",
+    "name": "Arctic",
+    "description": "Cold frontiers and icebound routes \u2014 survive, scout, and claim the polar map.",
+    "repo": null,
+    "playUrl": "https://arctic-unity.s3.us-east-2.amazonaws.com/index.html",
+    "poster": "posters/arctic.jpg",
+    "tags": [
+      "strategy",
+      "exploration"
+    ],
+    "featured": false
+  },
+  {
+    "id": "rubicon",
+    "name": "Rubicon",
+    "description": "Cross the river \u2014 commit, bridge rivals, and decide the campaign.",
+    "repo": null,
+    "playUrl": "https://rubicon-unity.s3.us-east-2.amazonaws.com/index.html",
+    "poster": "posters/rubicon.jpg",
+    "tags": [
+      "strategy",
+      "war"
+    ],
+    "featured": false
   }
 ]
