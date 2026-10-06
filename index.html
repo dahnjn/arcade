@@ -3,94 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Game Arcade · Josh Dahn</title>
-  <meta name="description" content="A curated arcade of 10 games by Josh Dahn (@dahnjn). Browse, filter, and play." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <title>ARCADE — Josh Dahn</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="bg-glow" aria-hidden="true"></div>
-  <div class="bg-grid" aria-hidden="true"></div>
+  <header class="site-header">
+    <h1 class="site-title">ARCADE</h1>
+    <p class="site-credit">Josh Dahn / dahnjn</p>
+  </header>
 
-  <!-- Arcade browse view -->
-  <div id="arcade-view">
-    <header class="site-header">
-      <div class="brand">
-        <span class="brand-mark" aria-hidden="true">◆</span>
-        <div>
-          <h1 class="brand-title">Game Arcade</h1>
-          <p class="brand-sub">A curated collection by Josh Dahn <span class="handle">@dahnjn</span></p>
-        </div>
-      </div>
-      <div class="header-actions">
-        <a class="ghost-link" href="https://github.com/dahnjn" target="_blank" rel="noopener noreferrer">GitHub</a>
-      </div>
-    </header>
-
-    <main class="arcade-main">
-      <section class="controls" aria-label="Filters">
-        <div class="search-wrap">
-          <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-            <circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/>
-          </svg>
-          <input
-            id="search"
-            type="search"
-            placeholder="Search the collection…"
-            autocomplete="off"
-            aria-label="Search games"
-          />
-        </div>
-        <div id="tag-chips" class="tag-chips" role="group" aria-label="Filter by tag"></div>
-      </section>
-
-      <section id="featured-section" class="featured-section" hidden>
-        <div class="section-head">
-          <h2>Featured</h2>
-          <span class="section-rule"></span>
-        </div>
-        <div id="featured-grid" class="card-grid featured-grid"></div>
-      </section>
-
-      <section class="all-section">
-        <div class="section-head">
-          <h2 id="all-heading">The Collection</h2>
-          <span class="section-rule"></span>
-          <span id="result-count" class="result-count"></span>
-        </div>
-        <div id="games-grid" class="card-grid"></div>
-        <p id="empty-state" class="empty-state" hidden>No games match that filter.</p>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <p>Ten games · curated arcade · <a href="https://github.com/dahnjn" target="_blank" rel="noopener noreferrer">github.com/dahnjn</a></p>
-    </footer>
-  </div>
-
-  <!-- In-app play view -->
-  <div id="play-view" class="play-view" hidden>
-    <div class="play-bar">
-      <button id="back-btn" class="back-btn" type="button" aria-label="Back to arcade">
-        <span aria-hidden="true">←</span> Arcade
-      </button>
-      <h2 id="play-title" class="play-title"></h2>
-      <div class="play-bar-actions">
-        <a id="open-tab" class="open-tab-btn" href="#" target="_blank" rel="noopener noreferrer">Open in new tab</a>
-      </div>
-    </div>
-    <div class="play-frame-wrap">
-      <iframe id="play-frame" title="Game" allow="fullscreen; autoplay; gamepad" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      <div id="frame-fallback" class="frame-fallback" hidden>
-        <p class="fallback-title">This game can’t be embedded</p>
-        <p class="fallback-body">It may block iframes (X-Frame-Options). Open it in a new tab instead.</p>
-        <a id="fallback-open" class="btn primary" href="#" target="_blank" rel="noopener noreferrer">Open in new tab</a>
-        <button id="fallback-back" class="btn ghost" type="button">← Back to Arcade</button>
-      </div>
-    </div>
-  </div>
+  <main>
+    <div id="grid" class="grid" aria-label="Games"></div>
+    <p id="error" class="error" hidden></p>
+  </main>
 
   <script src="app.js"></script>
 </body>
