@@ -1,0 +1,120 @@
+[
+  {
+    "id": "starlite",
+    "name": "Starlite",
+    "description": "A game-master console for running sessions \u2014 tables, tools, and live play energy.",
+    "repo": "https://github.com/dahnjn/starlite",
+    "playUrl": "https://dahnjn.github.io/starlite/",
+    "tags": [
+      "tools"
+    ],
+    "featured": true
+  },
+  {
+    "id": "pumpkin",
+    "name": "Pumpkin",
+    "description": "Your next fast idea \u2014 a bright little launcher for quick creative sparks.",
+    "repo": "https://github.com/dahnjn/pumpkin",
+    "playUrl": "https://dahnjn.github.io/pumpkin/",
+    "tags": [
+      "tools"
+    ],
+    "featured": true
+  },
+  {
+    "id": "hollywood",
+    "name": "Hollywood",
+    "description": "Direct a film: balance cast, crew, and script against your director's taste \u2014 then market it and roll the dice.",
+    "repo": "https://github.com/dahnjn/hollywood",
+    "playUrl": "https://dahnjn.github.io/hollywood/",
+    "tags": [
+      "strategy",
+      "simulation"
+    ],
+    "featured": false
+  },
+  {
+    "id": "nashcity",
+    "name": "Nashcity",
+    "description": "Four-color hex strategy: claim, capture, and connect opposite edges on a shared board.",
+    "repo": "https://github.com/dahnjn/nashcity",
+    "playUrl": "https://dahnjn.github.io/nashcity/",
+    "tags": [
+      "strategy",
+      "nashville"
+    ],
+    "featured": false
+  },
+  {
+    "id": "nashville",
+    "name": "Nashville",
+    "description": "Three-player neon hex \u2014 connect your sides, capture neighbors, and race for the city.",
+    "repo": "https://github.com/dahnjn/nashville",
+    "playUrl": "https://dahnjn.github.io/nashville/",
+    "tags": [
+      "strategy",
+      "nashville"
+    ],
+    "featured": false
+  },
+  {
+    "id": "fish",
+    "name": "Fish",
+    "description": "Catch, steal, sell \u2014 roll across Japanese ports, pirate rivals, and bank Black Cod.",
+    "repo": "https://github.com/dahnjn/fish",
+    "playUrl": "https://dahnjn.github.io/fish/",
+    "tags": [
+      "arcade",
+      "strategy"
+    ],
+    "featured": false
+  },
+  {
+    "id": "lizard-kings",
+    "name": "Lizard Kings",
+    "description": "World-tour zoo draft: assign animals, buy insurance, and chase ticket revenue.",
+    "repo": "https://github.com/dahnjn/lizard-kings",
+    "playUrl": "https://dahnjn.github.io/lizard-kings/",
+    "tags": [
+      "strategy",
+      "draft"
+    ],
+    "featured": false
+  },
+  {
+    "id": "art-for-all",
+    "name": "Art for All",
+    "description": "Auction houses and travel maps \u2014 bid Dutch, lottery, or classic for the collection.",
+    "repo": "https://github.com/dahnjn/art-for-all",
+    "playUrl": "https://dahnjn.github.io/art-for-all/",
+    "tags": [
+      "art",
+      "auction"
+    ],
+    "featured": false
+  },
+  {
+    "id": "news",
+    "name": "News",
+    "description": "Build islands, ships, and housing \u2014 move workers, earn rent, and outscore the map.",
+    "repo": "https://github.com/dahnjn/news",
+    "playUrl": "https://dahnjn.github.io/news/",
+    "tags": [
+      "strategy",
+      "economy"
+    ],
+    "featured": false
+  },
+  {
+    "id": "anova",
+    "name": "Anova",
+    "description": "Mine, compare, and explore variance \u2014 classroom ANOVA wrapped in a playable board.",
+    "repo": "https://github.com/dahnjn/anova",
+    "playUrl": "https://dahnjn.github.io/anova/",
+    "tags": [
+      "classroom",
+      "strategy"
+    ],
+    "featured": false
+  }
+]
