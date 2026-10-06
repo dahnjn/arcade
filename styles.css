@@ -80,10 +80,9 @@ main {
 .card-poster {
   display: block;
   width: 100%;
-  height: auto;
-  max-height: none;
+  aspect-ratio: 3 / 4;
   object-fit: contain;
-  object-position: center top;
+  object-position: center center;
   border-bottom: 2px solid #000;
   background: #fff;
 }
