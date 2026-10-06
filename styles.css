@@ -49,7 +49,7 @@ main {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 1.25rem;
   max-width: 1200px;
   margin: 0 auto;
@@ -80,10 +80,12 @@ main {
 .card-poster {
   display: block;
   width: 100%;
-  aspect-ratio: 3 / 4;
-  object-fit: cover;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+  object-position: center top;
   border-bottom: 2px solid #000;
-  background: #eee;
+  background: #fff;
 }
 
 .card-body {
