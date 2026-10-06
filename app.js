@@ -10,10 +10,13 @@
 
   function card(game) {
     const article = document.createElement("article");
-    article.className = "card";
+    article.className = "card" + (game.locked ? " card-locked" : "");
     article.setAttribute("role", "link");
     article.setAttribute("tabindex", "0");
-    article.setAttribute("aria-label", "Play " + game.name);
+    article.setAttribute(
+      "aria-label",
+      (game.locked ? "Locked — open password gate for " : "Play ") + game.name
+    );
 
     const img = document.createElement("img");
     img.className = "card-poster";
@@ -33,7 +36,7 @@
     play.href = game.playUrl;
     play.target = "_blank";
     play.rel = "noopener noreferrer";
-    play.textContent = "Play";
+    play.textContent = game.locked ? "Unlock" : "Play";
     play.addEventListener("click", function (e) {
       e.stopPropagation();
     });

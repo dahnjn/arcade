@@ -139,7 +139,8 @@
     "tags": [
       "tools"
     ],
-    "featured": false
+    "featured": false,
+    "locked": true
   },
   {
     "id": "starlite",
@@ -151,6 +152,7 @@
     "tags": [
       "tools"
     ],
-    "featured": false
+    "featured": false,
+    "locked": true
   }
 ]

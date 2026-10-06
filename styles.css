@@ -147,3 +147,9 @@ main {
     gap: 1.5rem;
   }
 }
+
+.card-locked .card-play {
+  background: #fff;
+  color: #000;
+  border: 2px solid #000;
+}
