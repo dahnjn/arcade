@@ -1,0 +1,62 @@
+{
+  "anova": {
+    "hex": "#00C2A8",
+    "name": "Teal pulse"
+  },
+  "art-for-all": {
+    "hex": "#FF2E63",
+    "name": "Hot magenta"
+  },
+  "constellation": {
+    "hex": "#6B5CFF",
+    "name": "Violet blaze"
+  },
+  "fish": {
+    "hex": "#08F7FE",
+    "name": "Electric cyan"
+  },
+  "hollywood": {
+    "hex": "#F5D300",
+    "name": "Coin gold"
+  },
+  "lizard-kings": {
+    "hex": "#39FF14",
+    "name": "Arcade green"
+  },
+  "nashcity": {
+    "hex": "#4A5FFF",
+    "name": "Deep violet-blue"
+  },
+  "nashtown": {
+    "hex": "#FF6B35",
+    "name": "Blaster orange"
+  },
+  "nashville": {
+    "hex": "#C77DFF",
+    "name": "Orchid glow"
+  },
+  "news": {
+    "hex": "#FF1744",
+    "name": "Signal red"
+  },
+  "pumpkin": {
+    "hex": "#FF9F1C",
+    "name": "Amber blaze"
+  },
+  "starlite": {
+    "hex": "#FF4D9E",
+    "name": "Pink spark"
+  },
+  "foxtown": {
+    "hex": "#E85D04",
+    "name": "Fox orange"
+  },
+  "arctic": {
+    "hex": "#7BDFF2",
+    "name": "Ice cyan"
+  },
+  "rubicon": {
+    "hex": "#C1121F",
+    "name": "Rubicon red"
+  }
+}

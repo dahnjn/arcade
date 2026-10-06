@@ -3,6 +3,7 @@
 
   const grid = document.getElementById("grid");
   const errorEl = document.getElementById("error");
+  let colors = {};
 
   function openPlay(url) {
     window.open(url, "_blank", "noopener,noreferrer");
@@ -17,6 +18,13 @@
       "aria-label",
       (game.locked ? "Locked — open password gate for " : "Play ") + game.name
     );
+    article.dataset.game = game.id;
+
+    const accent = colors[game.id] && colors[game.id].hex;
+    if (accent) {
+      article.style.setProperty("--game-accent", accent);
+      article.dataset.accent = accent;
+    }
 
     const img = document.createElement("img");
     img.className = "card-poster";
@@ -70,12 +78,23 @@
     });
   }
 
-  fetch("games.json", { cache: "no-store" })
-    .then(function (res) {
+  Promise.all([
+    fetch("games.json", { cache: "no-store" }).then(function (res) {
       if (!res.ok) throw new Error("Failed to load games.json (" + res.status + ")");
       return res.json();
+    }),
+    fetch("games-colors.json", { cache: "no-store" })
+      .then(function (res) {
+        return res.ok ? res.json() : {};
+      })
+      .catch(function () {
+        return {};
+      }),
+  ])
+    .then(function (pair) {
+      colors = pair[1] || {};
+      render(pair[0]);
     })
-    .then(render)
     .catch(function (err) {
       errorEl.hidden = false;
       errorEl.textContent = String(err.message || err);

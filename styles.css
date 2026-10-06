@@ -57,9 +57,10 @@ main {
 
 /* —— Card —— */
 .card {
+  --game-accent: #000;
   display: flex;
   flex-direction: column;
-  border: 2px solid #000;
+  border: 2px solid var(--game-accent, #000);
   background: #fff;
   cursor: pointer;
   text-decoration: none;
@@ -83,7 +84,7 @@ main {
   aspect-ratio: 3 / 4;
   object-fit: contain;
   object-position: center center;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid var(--game-accent, #000);
   background: #fff;
 }
 
@@ -107,8 +108,8 @@ main {
   display: inline-block;
   align-self: flex-start;
   padding: 0.4rem 0.9rem;
-  border: 2px solid #000;
-  background: #000;
+  border: 2px solid var(--game-accent, #000);
+  background: var(--game-accent, #000);
   color: #fff;
   font-family: inherit;
   font-size: 0.7rem;
