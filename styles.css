@@ -1,4 +1,4 @@
-/* Swiss / International Typographic Style — black ink on white ground */
+/* Swiss / International Typographic Style — black motifs on game-color poster grounds */
 
 *,
 *::before,
@@ -70,7 +70,7 @@ main {
 
 .card:hover,
 .card:focus-within {
-  background: #f5f5f5;
+  background: #fafafa;
 }
 
 .card:focus {
@@ -82,10 +82,10 @@ main {
   display: block;
   width: 100%;
   aspect-ratio: 3 / 4;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center center;
   border-bottom: 2px solid var(--game-accent, #000);
-  background: #fff;
+  background: transparent;
 }
 
 .card-body {

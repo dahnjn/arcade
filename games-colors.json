@@ -28,8 +28,8 @@
     "name": "Deep violet-blue"
   },
   "nashtown": {
-    "hex": "#FF6B35",
-    "name": "Blaster orange"
+    "hex": "#FF7E6B",
+    "name": "Coral blush"
   },
   "nashville": {
     "hex": "#C77DFF",
@@ -40,16 +40,16 @@
     "name": "Signal red"
   },
   "pumpkin": {
-    "hex": "#FF9F1C",
-    "name": "Amber blaze"
+    "hex": "#FFB703",
+    "name": "Amber gold"
   },
   "starlite": {
     "hex": "#FF4D9E",
     "name": "Pink spark"
   },
   "foxtown": {
-    "hex": "#E85D04",
-    "name": "Fox orange"
+    "hex": "#C44536",
+    "name": "Fox brick"
   },
   "arctic": {
     "hex": "#7BDFF2",
