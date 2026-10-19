@@ -139,8 +139,7 @@
     "tags": [
       "tools"
     ],
-    "featured": false,
-    "locked": true
+    "featured": false
   },
   {
     "id": "starlite",
@@ -152,8 +151,7 @@
     "tags": [
       "tools"
     ],
-    "featured": false,
-    "locked": true
+    "featured": false
   },
   {
     "id": "foxtown",
